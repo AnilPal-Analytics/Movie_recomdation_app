@@ -8,7 +8,7 @@ genai.configure(api_key=os.getenv("GOOGLE_GEMINI_API"))
 
 st.title("📽️Movie Recommendation System")
 
-user_input = st.text_input("Enter the movie name")
+user_input = st.text_input("**Enter Movie Name**")
 submit = st.button("Submit...")
 
 model = genai.GenerativeModel("gemini-2.5-flash-lite")
