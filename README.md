@@ -1,2 +1,2 @@
-streamlit run yourscript.py# Movie_recomdation_app
+**Movie_Recommendation_App**
 We will use GenAi model like google gemini to suggest a movies semilar to the user input
